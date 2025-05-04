@@ -59,6 +59,7 @@ def download(
         'subtitleslangs': ['all', '-live_chat'],
         'subtitlesformat': 'srt/ass/vtt/best',
         'cachedir': '/tmp/',
+        'nocheckcertificate': True,
         'noplaylist': True,  # not implemented in video2commons
         'postprocessors': [{
             'key': 'FFmpegSubtitlesConvertor',
